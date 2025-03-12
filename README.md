@@ -7,7 +7,10 @@ For an online, runnable version of this code with all the data included, please 
 
 # How to run
 ## Demo
-Clone the repository and run <a href="https://github.com/ThrupthiAnn/Canonical-Salient-Maps/blob/main/code/demo1_maps.ipynb">demo1_maps.ipynb</a> with the data already present in /data. This notebook takes  you through the steps of calculating a Canonical Image Saliency Map and Canonical Model Saliency Map. If you want to run the other demo notebooks, download the data from CodeOcean: https://codeocean.com/capsule/2602708/tree 
+* Clone the repository
+* Download the model 'data/Models/VGG16_CelebA_Recognition.pth' from https://codeocean.com/capsule/2602708/tree  and put it in the folder 'data/Models/'
+* Run the notebook <a href="https://github.com/ThrupthiAnn/Canonical-Salient-Maps/blob/main/code/demo1_maps.ipynb">demo1_maps.ipynb</a> with the data already present in /data. This notebook takes  you through the steps of calculating a Canonical Image Saliency Map and Canonical Model Saliency Map.
+* If you want to run the other demo notebooks, download the data from CodeOcean: https://codeocean.com/capsule/2602708/tree 
 
 ## Running for your model or image
 For any face image, you need first to calculate the corresponding 3D alignment obtained using the code at: https://github.com/yfeng95/PRNet. Follow the instructions in <a href="https://github.com/ThrupthiAnn/Canonical-Salient-Maps/blob/main/code/demo1_maps.ipynb">demo1_maps.ipynb</a>
